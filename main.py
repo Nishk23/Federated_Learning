@@ -29,6 +29,9 @@ csv_file_path = 'C:/Users/nithi/Desktop/FAU/Semester-4/Master_Thesis_Federated_L
 # Read the metadata from the CSV file
 metadata = pd.read_csv(csv_file_path)
 
+# Extract only numeric part from the 'age' column
+metadata['Age'] = metadata['Age'].str.extract('(\d+)').astype(int)
+
 # Get list of all image files in the folder
 image_files = [os.path.join(image_folder, file) for file in os.listdir(image_folder) if
                file.endswith(('png', 'jpg', 'jpeg', 'bmp', 'gif'))]
