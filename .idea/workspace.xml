@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Updated Age">
+    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Updated the metadata separation">
       <change afterPath="$PROJECT_DIR$/data_augmentation.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/image_classification.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metadata_separation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/metadata_separation.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,8 @@
       <workItem from="1718442633634" duration="1144000" />
       <workItem from="1718444090963" duration="40000" />
       <workItem from="1718457131319" duration="1410000" />
-      <workItem from="1718458562358" duration="7486000" />
+      <workItem from="1718458562358" duration="9868000" />
+      <workItem from="1718555339476" duration="7165000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code for image display">
       <option name="closed" value="true" />
@@ -242,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718437348844</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated the metadata separation">
+      <option name="closed" value="true" />
+      <created>1718473492257</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718473492257</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +267,8 @@
     <MESSAGE value="Updated" />
     <MESSAGE value="Code for metadata separation" />
     <MESSAGE value="Updated Age" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Age" />
+    <MESSAGE value="Updated the metadata separation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the metadata separation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace$main.coverage" NAME="main Coverage Results" MODIFIED="1718054040613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
