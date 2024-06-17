@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Image separation code">
-      <change afterPath="$PROJECT_DIR$/binary_classification.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_data_separation.py" afterDir="false" />
-    </list>
+    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Code Updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +143,7 @@
       <workItem from="1718457131319" duration="1410000" />
       <workItem from="1718458562358" duration="9868000" />
       <workItem from="1718555339476" duration="8706000" />
-      <workItem from="1718603214583" duration="9803000" />
+      <workItem from="1718603214583" duration="10149000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code for image display">
       <option name="closed" value="true" />
@@ -309,7 +305,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718572846408</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated binary classification">
+      <option name="closed" value="true" />
+      <created>1718614854168</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1718614854168</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Image data folder separation">
+      <option name="closed" value="true" />
+      <created>1718614930698</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718614930698</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Code Updates">
+      <option name="closed" value="true" />
+      <created>1718614948887</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718614948887</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +349,10 @@
     <MESSAGE value="Updated the metadata separation" />
     <MESSAGE value="Image separation updated" />
     <MESSAGE value="Image separation code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image separation code" />
+    <MESSAGE value="Updated binary classification" />
+    <MESSAGE value="Image data folder separation" />
+    <MESSAGE value="Code Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Updates" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace$binary_classification.coverage" NAME="binary_classification Coverage Results" MODIFIED="1718608471963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
