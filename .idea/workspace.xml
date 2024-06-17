@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Code Updates" />
+    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Code Updates">
+      <change afterPath="$PROJECT_DIR$/data_augmentation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +146,7 @@
       <workItem from="1718457131319" duration="1410000" />
       <workItem from="1718458562358" duration="9868000" />
       <workItem from="1718555339476" duration="8706000" />
-      <workItem from="1718603214583" duration="10149000" />
+      <workItem from="1718603214583" duration="21199000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code for image display">
       <option name="closed" value="true" />
@@ -329,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718614948887</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Code Updates">
+      <option name="closed" value="true" />
+      <created>1718615158058</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1718615158058</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
