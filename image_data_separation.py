@@ -28,7 +28,7 @@ image_extensions = ['.jpg', '.jpeg', '.png', '.bmp']
 # Atelectasis
 data_folder_atelectasis = os.path.join(root, 'sample/images/Atelectasis')
 train_folder_atelectasis = os.path.join(data_folder_atelectasis, 'train')
-val_folder_atelectasis = os.path.join(data_folder_atelectasis, 'eval')
+val_folder_atelectasis = os.path.join(data_folder_atelectasis, 'val')
 test_folder_atelectasis = os.path.join(data_folder_atelectasis, 'test')
 setup_and_copy_images(data_folder_atelectasis, train_folder_atelectasis, val_folder_atelectasis,
                       test_folder_atelectasis, image_extensions)
@@ -36,7 +36,7 @@ setup_and_copy_images(data_folder_atelectasis, train_folder_atelectasis, val_fol
 # Cardiomegaly
 data_folder_cardiomegaly = os.path.join(root, 'sample/images/Cardiomegaly')
 train_folder_cardiomegaly = os.path.join(data_folder_cardiomegaly, 'train')
-val_folder_cardiomegaly = os.path.join(data_folder_cardiomegaly, 'eval')
+val_folder_cardiomegaly = os.path.join(data_folder_cardiomegaly, 'val')
 test_folder_cardiomegaly = os.path.join(data_folder_cardiomegaly, 'test')
 setup_and_copy_images(data_folder_cardiomegaly, train_folder_cardiomegaly, val_folder_cardiomegaly,
                       test_folder_cardiomegaly, image_extensions)
