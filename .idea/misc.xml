@@ -4,5 +4,5 @@
     <option name="pathToExecutable" value="C:\Users\nithi\anaconda3\Scripts\black.exe" />
     <option name="sdkName" value="Python 3.10 (fedlearn)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (fedlearn)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.5 (sftp://mlvl138h@cshpc.rrze.fau.de:22/home/hpc/rzku/mlvl138h/Federated Learning/workspace/fedlearn/Scripts/bin/python)" project-jdk-type="Python SDK" />
 </project>
