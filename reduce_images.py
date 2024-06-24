@@ -25,7 +25,7 @@ def reduce_images(folder_path, max_images=1000):
     random.shuffle(image_files)
 
     # Select the images to keep
-    images_to_keep = image_files[:max_images]
+    # images_to_keep = image_files[:max_images]
 
     # Select the images to delete
     images_to_delete = image_files[max_images:]
@@ -59,4 +59,4 @@ folders = [
 ]
 
 for folder in folders:
-    reduce_images(folder, max_images=1000)
+    reduce_images(folder, max_images=900)
