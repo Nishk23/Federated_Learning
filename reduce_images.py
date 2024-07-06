@@ -38,25 +38,26 @@ def reduce_images(folder_path, max_images=1000):
     print(f"Reduced {folder_path} to {max_images} images.")
 
 
+root_folder = "C:/Users/nithi/Desktop/FAU/Semester-4/Master_Thesis_Federated_Learning/dataset"
+
 # Example usage
 folders = [
-    "Dataset/sample/Atelectasis",
-    "Dataset/sample/Cardiomegaly",
-    "Dataset/sample/Consolidation",
-    "Dataset/sample/Edema",
-    "Dataset/sample/Effusion",
-    "Dataset/sample/Emphysema",
-    "Dataset/sample/Fibrosis",
-    "Dataset/sample/Hernia",
-    "Dataset/sample/Infiltration",
-    "Dataset/sample/Mass",
-    "Dataset/sample/Nodule",
-    "Dataset/sample/Pleural_Thickening",
-    "Dataset/sample/Pneumonia",
-    "Dataset/sample/Pneumothorax",
-    "Dataset/sample/No Finding",
-    # Add more folders as needed
+    root_folder + "/Atelectasis",
+    root_folder + "/Cardiomegaly",
+    root_folder + "/Consolidation",
+    root_folder + "/Edema",
+    root_folder + "/Effusion",
+    root_folder + "/Emphysema",
+    root_folder + "/Fibrosis",
+    root_folder + "/Hernia",
+    root_folder + "/Infiltration",
+    root_folder + "/Mass",
+    root_folder + "/Nodule",
+    root_folder + "/Pleural_Thickening",
+    root_folder + "/Pneumonia",
+    root_folder + "/Pneumothorax",
+    root_folder + "/No Finding"
 ]
 
 for folder in folders:
-    reduce_images(folder, max_images=900)
+    reduce_images(folder, max_images=600)
