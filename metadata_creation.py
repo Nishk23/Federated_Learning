@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-root_path = 'C:/Users/nithi/Desktop/FAU/Semester-4/Master_Thesis_Federated_Learning/workspace/Dataset/sample'
+root_path = 'C:/Users/nithi/Desktop/FAU/Semester-4/Master_Thesis_Federated_Learning/dataset'
 
 # Define the path to the dataset
 dataset_path = root_path
