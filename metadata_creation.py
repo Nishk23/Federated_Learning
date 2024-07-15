@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-root_path = 'C:/Users/nithi/Desktop/FAU/Semester-4/Master_Thesis_Federated_Learning/dataset'
+root_path = 'C:/Users/nithi/Desktop/FAU/Semester-4/Master_Thesis_Federated_Learning/workspace/client_1_data'
 
 # Define the path to the dataset
 dataset_path = root_path
@@ -28,7 +28,7 @@ metadata_df = pd.DataFrame({
 })
 
 # Define the path to the output CSV file
-csv_path = root_path + '/chest_image_metadata.csv'
+csv_path = root_path + '/chest_image_metadata_client1.csv'
 
 # Save the DataFrame to a CSV file
 metadata_df.to_csv(csv_path, index=False)
