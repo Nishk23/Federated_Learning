@@ -21,7 +21,7 @@ class CifarClient(fl.client.NumPyClient):
     def evaluate(self, parameters, config):
         model.set_weights(parameters)
         loss, accuracy = model.evaluate(x_test, y_test)
-        return loss, len(x_test), {"accuracy": accuracy}
+        return loss, len(x_test), {"accuracy": accuracy, "loss": loss}
 
 
 # Start Flower client
