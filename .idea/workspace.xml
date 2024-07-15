@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="created FedLearn setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL_NV_Flare/client/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/FL_NV_Flare/client/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL_NV_Flare/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/FL_NV_Flare/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metadata_creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/metadata_creation.py" afterDir="false" />
-    </list>
+    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="updated FedLearn code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -288,7 +283,7 @@
       <workItem from="1720978547858" duration="1013000" />
       <workItem from="1720980168502" duration="2781000" />
       <workItem from="1721029895308" duration="5938000" />
-      <workItem from="1721041881207" duration="1924000" />
+      <workItem from="1721041881207" duration="2233000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code for image display">
       <option name="closed" value="true" />
@@ -626,7 +621,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721039346623</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="updated FedLearn code">
+      <option name="closed" value="true" />
+      <created>1721047521564</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1721047521564</updated>
+    </task>
+    <task id="LOCAL-00044" summary="updated FedLearn code">
+      <option name="closed" value="true" />
+      <created>1721047534894</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1721047534894</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added EDA Code" />
     <MESSAGE value="Updated EDA Code" />
     <MESSAGE value="Code for metadata separation" />
     <MESSAGE value="Updated Age" />
@@ -669,7 +679,8 @@
     <MESSAGE value="Updated" />
     <MESSAGE value="Updated code" />
     <MESSAGE value="created FedLearn setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="created FedLearn setup" />
+    <MESSAGE value="updated FedLearn code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated FedLearn code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace$binary_classification.coverage" NAME="binary_classification Coverage Results" MODIFIED="1718786861246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
