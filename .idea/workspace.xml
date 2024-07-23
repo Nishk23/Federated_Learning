@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Updated code">
-      <change afterPath="$PROJECT_DIR$/metrics_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_isolated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualize_isolated_metrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,47 +253,7 @@
       <workItem from="1721396875199" duration="3311000" />
       <workItem from="1721403136192" duration="2611000" />
       <workItem from="1721656617657" duration="16407000" />
-      <workItem from="1721717402795" duration="391000" />
-    </task>
-    <task id="LOCAL-00004" summary="Updated Age value">
-      <option name="closed" value="true" />
-      <created>1718030619028</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1718030619028</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Created notebook file">
-      <option name="closed" value="true" />
-      <created>1718090214327</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1718090214327</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Separate label folder">
-      <option name="closed" value="true" />
-      <created>1718098658451</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1718098658451</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Separate label folder">
-      <option name="closed" value="true" />
-      <created>1718099144770</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1718099144770</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added EDA Code">
-      <option name="closed" value="true" />
-      <created>1718380652661</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1718380652661</updated>
+      <workItem from="1721717402795" duration="1096000" />
     </task>
     <task id="LOCAL-00009" summary="Updated EDA Code">
       <option name="closed" value="true" />
@@ -650,7 +607,47 @@
       <option name="project" value="LOCAL" />
       <updated>1721717609646</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Main client code to perform classification task">
+      <option name="closed" value="true" />
+      <created>1721719417867</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1721719417867</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Isolated classification code">
+      <option name="closed" value="true" />
+      <created>1721719448247</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1721719448247</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Visualization code for FL classification metrics">
+      <option name="closed" value="true" />
+      <created>1721719490413</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1721719490413</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Visualization code for isolated classification metrics">
+      <option name="closed" value="true" />
+      <created>1721719505084</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1721719505084</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Updated code">
+      <option name="closed" value="true" />
+      <created>1721719519673</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1721719519673</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,10 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated the metadata separation" />
-    <MESSAGE value="Image separation updated" />
-    <MESSAGE value="Image separation code" />
-    <MESSAGE value="Updated binary classification" />
     <MESSAGE value="Image data folder separation" />
     <MESSAGE value="Code Updates" />
     <MESSAGE value="Image data augmentation" />
@@ -692,6 +685,10 @@
     <MESSAGE value="updated" />
     <MESSAGE value="Created FedLearn setup" />
     <MESSAGE value="Main server code for FL setup" />
+    <MESSAGE value="Main client code to perform classification task" />
+    <MESSAGE value="Isolated classification code" />
+    <MESSAGE value="Visualization code for FL classification metrics" />
+    <MESSAGE value="Visualization code for isolated classification metrics" />
     <MESSAGE value="Updated code" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated code" />
   </component>
