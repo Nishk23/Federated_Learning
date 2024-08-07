@@ -132,7 +132,8 @@ class ImageClassificationClient(fl.client.NumPyClient):
 def main(data_dir, client_id):
     csv_file = os.path.join(data_dir, 'chest_image_metadata_client.csv')
 
-    model = ResNetForImageClassification.from_pretrained("microsoft/resnet-50", num_labels=len(classes),
+    model = ResNetForImageClassification.from_pretrained("microsoft/resnet-50",
+                                                         num_labels=len(classes),
                                                          ignore_mismatched_sizes=True)
 
     train_dataset, val_dataset, test_dataset = load_data(data_dir, csv_file)
