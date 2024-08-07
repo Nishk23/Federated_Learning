@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Updated code">
-      <change afterPath="$PROJECT_DIR$/visualize_comparison.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualize_contribution_benefit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualize_federated_metrics.py" afterDir="false" />
+    <list default="true" id="9e95f9ed-f5fc-42b8-9559-fa5a855ebf67" name="Changes" comment="Added visualization code">
+      <change afterPath="$PROJECT_DIR$/viz_sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualize_contribution_benefit.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualize_contribution_benefit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,39 +309,12 @@
       <workItem from="1721656617657" duration="16407000" />
       <workItem from="1721717402795" duration="14008000" />
       <workItem from="1721806258297" duration="15325000" />
-      <workItem from="1721889577284" duration="729000" />
-    </task>
-    <task id="LOCAL-00010" summary="Updated EDA Code">
-      <option name="closed" value="true" />
-      <created>1718380972841</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1718380972841</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Updated EDA Code">
-      <option name="closed" value="true" />
-      <created>1718381170255</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1718381170255</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Updated EDA Code">
-      <option name="closed" value="true" />
-      <created>1718381273987</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1718381273987</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Updated EDA Code">
-      <option name="closed" value="true" />
-      <created>1718384996934</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1718384996934</updated>
+      <workItem from="1721889577284" duration="2431000" />
+      <workItem from="1721979700811" duration="2893000" />
+      <workItem from="1722321419541" duration="925000" />
+      <workItem from="1722322759520" duration="4031000" />
+      <workItem from="1722927264376" duration="718000" />
+      <workItem from="1723010503554" duration="3091000" />
     </task>
     <task id="LOCAL-00014" summary="Updated">
       <option name="closed" value="true" />
@@ -703,7 +676,39 @@
       <option name="project" value="LOCAL" />
       <updated>1721719538020</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Visualization between federated and isolated performance metrics">
+      <option name="closed" value="true" />
+      <created>1721890593029</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1721890593029</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Visualization between client's benefit and contribution">
+      <option name="closed" value="true" />
+      <created>1721890632033</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1721890632033</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Visualization of the client's performance">
+      <option name="closed" value="true" />
+      <created>1721890659582</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1721890659582</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Added visualization code">
+      <option name="closed" value="true" />
+      <created>1721890691818</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1721890691818</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,10 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Image data folder separation" />
-    <MESSAGE value="Code Updates" />
-    <MESSAGE value="Image data augmentation" />
-    <MESSAGE value="Code updates" />
     <MESSAGE value="Metadata Creation" />
     <MESSAGE value="Multi-classification model" />
     <MESSAGE value="Removed images" />
@@ -746,7 +747,11 @@
     <MESSAGE value="Visualization code for FL classification metrics" />
     <MESSAGE value="Visualization code for isolated classification metrics" />
     <MESSAGE value="Updated code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code" />
+    <MESSAGE value="Visualization between federated and isolated performance metrics" />
+    <MESSAGE value="Visualization between client's benefit and contribution" />
+    <MESSAGE value="Visualization of the client's performance" />
+    <MESSAGE value="Added visualization code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added visualization code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace$visualize_federated_metrics.coverage" NAME="visualize_federated_metrics Coverage Results" MODIFIED="1721748406419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

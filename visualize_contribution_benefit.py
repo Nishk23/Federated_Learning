@@ -295,9 +295,6 @@ def main():
     federated_summary = process_metrics(federated_metrics)
     isolated_summary = process_metrics(isolated_metrics)
 
-    print("Federated Summary:\n", federated_summary)
-    print("Isolated Summary:\n", isolated_summary)
-
     # Plot performance improvement
     plot_performance_improvement(federated_summary, isolated_summary)
 
@@ -307,9 +304,6 @@ def main():
     # Placeholder for history data (needs actual data from training logs)
     federated_history = load_federated_history(base_path)
     isolated_history = load_isolated_history(base_path)
-
-    print("Federated History:\n", federated_history)
-    print("Isolated History:\n", isolated_history)
 
     # Placeholder for contributions data (needs actual data)
     contributions = load_contributions(base_path)
@@ -325,8 +319,6 @@ def main():
         return
 
     contributions = pd.DataFrame(contributions)
-
-    print("Contributions:\n", contributions)
 
     # Plot contribution vs benefit
     plot_contribution_vs_benefit(contributions, federated_summary)
